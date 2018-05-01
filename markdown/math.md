@@ -38,7 +38,7 @@ $f'({{x}_{0}})=\underset{x\to {{x}_{0}}}{\mathop{\lim }}\,\frac{f(x)-f({{x}_{0}}
 法线方程：$y-{{y}_{0}}=-\frac{1}{f'({{x}_{0}})}(x-{{x}_{0}}),f'({{x}_{0}})\ne 0$
 
 **5.四则运算法则**
-设函数$u=u(x)，v=v(x)$]在点$x$可导则
+设函数$u=u(x)，v=v(x)$在点$x$可导则
 (1) $(u\pm v{)}'={u}'\pm {v}'$       $d(u\pm v)=du\pm dv$
 (2)$(uv{)}'=u{v}'+v{u}'$        $d(uv)=udv+vdu$
 (3) $(\frac{u}{v}{)}'=\frac{v{u}'-u{v}'}{{{v}^{2}}}(v\ne 0)$       $d(\frac{u}{v})=\frac{vdu-udv}{{{v}^{2}}}$
@@ -210,12 +210,12 @@ $f(x)=f(0)+{f}'(0)x+\frac{1}{2!}{f}''(0){{x}^{2}}+\cdots +\frac{{{f}^{(n)}}(0)}{
 (5) ${{(1+x)}^{m}}=1+mx+\frac{m(m-1)}{2!}{{x}^{2}}+\cdots +\frac{m(m-1)\cdots (m-n+1)}{n!}{{x}^{n}}$ 
 $+\frac{m(m-1)\cdots (m-n+1)}{(n+1)!}{{x}^{n+1}}{{(1+\xi )}^{m-n-1}}$ 
 
-或 ${{(1+x)}^{m}}=1+mx+\frac{m(m-1)}{2!}{{x}^{2}}+\cdots $ $+\frac{m(m-1)\cdots (m-n+1)}{n!}{{x}^{n}}+o({{x}^{n}})$
+或 ${{(1+x)}^{m}}=1+mx+\frac{m(m-1)}{2!}{{x}^{2}}+\cdots +\frac{m(m-1)\cdots (m-n+1)}{n!}{{x}^{n}}+o({{x}^{n}})$
 
 **12.函数单调性的判断**
 **Th1:**  设函数$f(x)$在$(a,b)$区间内可导，如果对$\forall x\in (a,b)$，都有$f\,'(x)>0$（或$f\,'(x)<0$），则函数$f(x)$在$(a,b)$内是单调增加的（或单调减少）
 
-**Th2:** （取极值的必要条件）设函数$f(x)$在${{x}_{0}}$处可导，且在${{x}_{0}}$处取极值，则$f\,'({{x}_{0}})=0$。
+**Th2:** （取极值的必要条件）设函数$f(x)​$在${{x}_{0}}​$处可导，且在${{x}_{0}}​$处取极值，则$f\,'({{x}_{0}})=0​$。
 
 **Th3:** （取极值的第一充分条件）设函数$f(x)$在${{x}_{0}}$的某一邻域内可微，且$f\,'({{x}_{0}})=0$（或$f(x)$在${{x}_{0}}$处连续，但$f\,'({{x}_{0}})$不存在。）
 (1)若当$x$经过${{x}_{0}}$时，$f\,'(x)$由“+”变“-”，则$f({{x}_{0}})$为极大值；
@@ -593,35 +593,45 @@ $\Leftrightarrow$存在正交矩阵$Q$，使$Q^{T}{AQ} = Q^{- 1}{AQ} =\begin{pma
 
 (7) 互逆事件（对立事件）：
 $A\bigcap B=\varnothing ,A\bigcup B=\Omega ,A=\bar{B}B=\bar{A}$
+
 **2.运算律**
 (1) 交换律：$A\bigcup B=B\bigcup A,A\bigcap B=B\bigcap A$
 (2) 结合律：$A\bigcup B\bigcup C=A\bigcup B\bigcup C$；
 $A\bigcap B\bigcap C=A\bigcap B\bigcap C$
 (3) 分配律：$A\bigcup B\bigcap C=A\bigcap C\bigcup B\bigcap C$
+
 **3.德$\centerdot $摩根律**
 
 $\overline{A\bigcup B}=\bar{A}\bigcap \bar{B}$                 $\overline{A\bigcap B}=\bar{A}\bigcup \bar{B}$
+
 **4.完全事件组** 
 
 ${{A}_{1}}{{A}_{2}}\cdots {{A}_{n}}$两两互斥，且和事件为必然事件，即${{A}_{i}}\bigcap {{A}_{j}}=\varnothing, i\ne j ,\underset{i=1}{\overset{n}{\mathop \bigcup }}\,=\Omega $
 
 **5.概率的基本公式**
+
 (1)条件概率:
  $PB|A=\frac{PAB}{PA}AB$
+
 (2)全概率公式：
 $PA=\sum\limits_{i=1}^{n}{P(A|{{B}_{i}})P({{B}_{i}}),{{B}_{i}}{{B}_{j}}}=\varnothing ,i\ne j,\underset{i=1}{\overset{n}{\mathop{\bigcup }}}\,{{B}_{i}}=\Omega $
+
 (3) Bayes公式：
 
 $P({{B}_{j}}|A)=\frac{P(A|{{B}_{j}})P({{B}_{j}})}{\sum\limits_{i=1}^{n}{P(A|{{B}_{i}})P({{B}_{i}})}},j=1,2,\cdots ,n$
 注：上述公式中事件${{B}_{i}}$的个数可为可列个。
+
 (4)乘法公式：
 $P({{A}_{1}}{{A}_{2}})=P({{A}_{1}})P({{A}_{2}}|{{A}_{1}})=P({{A}_{2}})P({{A}_{1}}|{{A}_{2}})$
 $P({{A}_{1}}{{A}_{2}}\cdots {{A}_{n}})=P({{A}_{1}})P({{A}_{2}}|{{A}_{1}})P({{A}_{3}}|{{A}_{1}}{{A}_{2}})\cdots P({{A}_{n}}|{{A}_{1}}{{A}_{2}}\cdots {{A}_{n-1}})$
 
 **6.事件的独立性**
+
 (1)$A$与$B$相互独立$\Leftrightarrow P(AB)=P(A)P(B)$
+
 (2)$A$，$B$，$C$两两独立
 $\Leftrightarrow P(AB)=P(A)P(B)$;$P(BC)=P(B)P(C)$ ;$P(AC)=P(A)P(C)$;
+
 (3)$A$，$B$，$C$相互独立
 $\Leftrightarrow P(AB)=P(A)P(B)$;     $P(BC)=P(B)P(C)$ ;
 $P(AC)=P(A)P(C);$     $P(ABC)=P(A)P(B)P(C)$
@@ -630,21 +640,31 @@ $P(AC)=P(A)P(C);$     $P(ABC)=P(A)P(B)P(C)$
 
 将某试验独立重复$n$次，若每次实验中事件A发生的概率为$p$，则$n$次试验中$A$发生$k$次的概率为：
 $P(X=k)=C_{n}^{k}{{p}^{k}}{{(1-p)}^{n-k}}$
+
 **8.重要公式与结论**
-$(1)P(\bar{A})=1-P(A)$
-$(2)P(A\bigcup B)=P(A)+P(B)-P(AB)$
+
+(1)$P(\bar{A})=1-P(A)$
+
+(2)$P(A\bigcup B)=P(A)+P(B)-P(AB)$
    $P(A\bigcup B\bigcup C)=P(A)+P(B)+P(C)-P(AB)-P(BC)-P(AC)+P(ABC)$
-$(3)P(A-B)=P(A)-P(AB)$
-$(4)P(A\bar{B})=P(A)-P(AB),P(A)=P(AB)+P(A\bar{B}),$
+
+(3)$P(A-B)=P(A)-P(AB)$
+
+(4)$P(A\bar{B})=P(A)-P(AB),P(A)=P(AB)+P(A\bar{B}),$
  $P(A\bigcup B)=P(A)+P(\bar{A}B)=P(AB)+P(A\bar{B})+P(\bar{A}B)$
+
 (5)条件概率$P(\centerdot |B)$满足概率的所有性质，
-例如：. $P({{\bar{A}}_{1}}|B)=1-P({{A}_{1}}|B)$
+例如：. $P({{\bar{A}}_{1}}|B)=1-P({{A}_{1}}|B)​$
 $P({{A}_{1}}\bigcup {{A}_{2}}|B)=P({{A}_{1}}|B)+P({{A}_{2}}|B)-P({{A}_{1}}{{A}_{2}}|B)$
 $P({{A}_{1}}{{A}_{2}}|B)=P({{A}_{1}}|B)P({{A}_{2}}|{{A}_{1}}B)$
+
 (6)若${{A}_{1}},{{A}_{2}},\cdots ,{{A}_{n}}$相互独立，则$P(\bigcap\limits_{i=1}^{n}{{{A}_{i}}})=\prod\limits_{i=1}^{n}{P({{A}_{i}})},$
  $P(\bigcup\limits_{i=1}^{n}{{{A}_{i}}})=\prod\limits_{i=1}^{n}{(1-P({{A}_{i}}))}$
+
 (7)互斥、互逆与独立性之间的关系：
+
 $A$与$B$互逆$\Rightarrow$ $A$与$B$互斥，但反之不成立，$A$与$B$互斥（或互逆）且均非零概率事件$\Rightarrow $$A$与$B$不独立.
+
 (8)若${{A}_{1}},{{A}_{2}},\cdots ,{{A}_{m}},{{B}_{1}},{{B}_{2}},\cdots ,{{B}_{n}}$相互独立，则$f({{A}_{1}},{{A}_{2}},\cdots ,{{A}_{m}})$与$g({{B}_{1}},{{B}_{2}},\cdots ,{{B}_{n}})$也相互独立，其中$f(\centerdot ),g(\centerdot )$分别表示对相应事件做任意事件运算后所得的事件，另外，概率为1（或0）的事件与任何事件相互独立.
 
 
