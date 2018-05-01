@@ -592,12 +592,15 @@ $\Leftrightarrow$存在正交矩阵$Q$，使$Q^{T}{AQ} = Q^{- 1}{AQ} =\begin{pma
 (6) 互斥事件（互不相容）：$A\bigcap B$=$\varnothing$。
 
 (7) 互逆事件（对立事件）：
-$A\bigcap B=\varnothing ,A\bigcup B=\Omega ,A=\bar{B}B=\bar{A}$
+$A\bigcap B=\varnothing ,A\bigcup B=\Omega ,A=\bar{B},B=\bar{A}$
 
 **2.运算律**
+
 (1) 交换律：$A\bigcup B=B\bigcup A,A\bigcap B=B\bigcap A$
+
 (2) 结合律：$A\bigcup B\bigcup C=A\bigcup B\bigcup C$；
 $A\bigcap B\bigcap C=A\bigcap B\bigcap C$
+
 (3) 分配律：$A\bigcup B\bigcap C=A\bigcap C\bigcup B\bigcap C$
 
 **3.德$\centerdot $摩根律**
